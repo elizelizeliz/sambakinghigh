@@ -1,0 +1,847 @@
+/* 
+
+Tooplate 2114 Pixie
+
+https://www.tooplate.com/view/2114-pixie
+
+*/
+
+body {
+	font-family: 'Roboto', sans-serif;
+	transition: all 0.5s;
+}
+
+p {
+	margin-bottom: 0px;
+	font-size: 14px;
+	color: #4a4a4a;
+	line-height: 24px;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+a.footer {
+	color: #947C70
+}
+
+a.footer:hover {
+	color: #C9A07D
+}
+
+.copyright-text {
+	text-transform: none;
+	font-family: 'Sofia Sans', sans-serif;
+}
+
+.main-button a {
+	background-color: #3a8bcd;
+	border-radius: 5px;
+	padding: 10px 15px;
+	display: inline-block;
+	color: #fff;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 300;
+	letter-spacing: 0.4px;
+	text-decoration: none;
+	transition: all 0.5s;
+}
+
+.main-button a:hover {
+	opacity: 0.7;
+}
+
+.main-content {
+	padding: 147px 0px 0px
+}
+
+.section-heading {
+	margin-top: 80px;
+	margin-bottom: 40px;
+}
+
+.section-heading .line-dec {
+	width: 30px;
+	height: 5px;
+	background-color: #3a8bcd;
+}
+
+.section-heading h1 {
+	font-size: 22px;
+	font-weight: 700;
+	color: #1e1e1e;
+	margin-top: 15px;
+}
+
+/* Navigation bar */
+.navbar .navbar-brand {
+	text-align: center;
+	width: 100%;
+	padding: 0px 5px;
+	margin-top: 0px;
+	z-index: 9999
+}
+
+.bg-dark {
+	position: fixed;
+	top: -10px;
+	width: 100%;
+	background-color: #FFF4EB !important;
+	border-bottom: 1px solid #FFF4EB;
+	z-index: 9999
+}
+
+.navbar-dark .navbar-nav .nav-item {
+	margin: 2px 70px;
+}
+
+.navbar-links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 50%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	font-family: 'Sofia Sans', sans-serif;
+	font-size: 17px;
+	font-weight: 700;
+	color: #947C70;
+	transition: all 0.5s;
+	z-index: 9999
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link {
+	color: #C9A07D;
+}
+
+.navbar-dark .navbar-toggler-icon {
+	background-image: none;
+}
+
+.navbar-dark .navbar-toggler {
+	border-color: #947C70;
+	background-color: #947C70;
+	height: 50px;
+	outline: none;
+}
+
+.navbar-dark .navbar-toggler-icon:after {
+	content: '\f0c9';
+	color: #FFF4EB;
+	font-size: 22px;
+	line-height: 30px;
+	font-family: 'FontAwesome';
+}
+
+#navbarResponsive {
+	position: absolute;
+	left: 50%;
+	top: 105px;
+	transform: translateX(-50%);
+	width: 100%;
+	height: 43px;
+	background-color: #EBDED4;
+}
+
+#navbarResponsive ul.navbar-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.navbar-nav>li:first-child {
+	margin-right: auto;
+}
+
+.icons-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+/* Dropdown menu */
+.dropbtn {
+	background-color: #EBDED4;
+	font-family: 'Sofia Sans', sans-serif;
+	font-size: 17px;
+	font-weight: 700;
+	color: #947C70;
+	padding: 8px;
+	border: none;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #FFF4EB;
+	min-width: 160px;
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: #947C70;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	font-family: 'Sofia Sans', sans-serif;
+	font-size: 17px;
+	font-weight: 700;
+}
+
+.dropdown-content a:hover {
+	background-color: #EBDED4;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropbtn {
+	color: #C9A07D;
+}
+
+.nav-btn {
+	background-color: #EBDED4;
+	padding: 8px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+
+.nav-btn:hover img {
+	filter: brightness(100%) saturate(100%) invert(0%) sepia(94%) saturate(300%) hue-rotate(1deg) brightness(93%) contrast(91%);
+}
+
+/* Post header */
+#post-header {
+	background-color: #C9A07D;
+	text-align: center;
+	position: relative;
+	z-index: -1;
+	height: 85px;
+	top: -50px
+}
+
+#post-header span {
+	color: #FFFFFF;
+	font-size: 15px;
+	padding: 56px 0px;
+	display: inline-block;
+}
+
+#menu-outer {
+	height: 33px;
+	background: #C9A07D;
+}
+
+.table {
+	display: table;
+	margin: 0 auto;
+}
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 5px;
+	font-family: 'Sofia Sans', sans-serif;
+	color: #FFFFFF;
+}
+
+ul#horizontal-list li {
+	display: inline;
+	margin: 130px;
+}
+
+/* Slideshow */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #eee;
+	color: #fff;
+	font-family: sans-serif;
+}
+
+.slide {
+	text-decoration: none;
+	color: inherit;
+}
+
+.slide-btn {
+	display: none;
+}
+
+.carousel {
+	position: relative;
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+}
+
+.carousel h1 {
+	text-align: center;
+	margin: 0 auto;
+	line-height: 75vh;
+	font-size: 10vmin;
+}
+
+.slide {
+	float: left;
+	height: 100%;
+	width: 0;
+	transition: width .3s linear;
+	padding: 0;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.slide>* {
+	transition: transform .15s linear;
+	transform: scale(0);
+}
+
+.labels {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.labels label {
+	display: inline-block;
+	background-color: transparent;
+	width: 15px;
+	height: 15px;
+	border-radius: 15px;
+	margin: .5vmin 2vmin;
+	border: 3px solid white;
+}
+
+.carousel .one,
+.carousel .two,
+.carousel .three,
+.carousel .four,
+.carousel .five {
+	background-position: center center;
+	background-size: cover;
+}
+
+.carousel .one {
+	background-image: url('../images/STRAWBERRY\ CAKE.jpg');
+}
+
+.carousel .two {
+	background-image: url('../images/CHOCOLATE\ CAKE.jpg');
+}
+
+.carousel .three {
+	background-image: url('../images/CARROT\ CAKE.jpg');
+}
+
+.carousel .four {
+	background-image: url('../images/CUPCAKE.jpg');
+}
+
+.carousel .five {
+	background-image: url('../images/LEMON\ CHEESECAKE.jpg');
+}
+
+#slide-btn-1:checked~.one,
+#slide-btn-2:checked~.two,
+#slide-btn-3:checked~.three,
+#slide-btn-4:checked~.four,
+#slide-btn-5:checked~.five {
+	width: 100%;
+}
+
+#slide-btn-1:checked~.one>*,
+#slide-btn-2:checked~.two>*,
+#slide-btn-3:checked~.three>*,
+#slide-btn-4:checked~.four>*,
+#slide-btn-5:checked~.five>* {
+	transform: scale(1);
+}
+
+#slide-btn-1:checked~.labels label[for="slide-btn-1"],
+#slide-btn-2:checked~.labels label[for="slide-btn-2"],
+#slide-btn-3:checked~.labels label[for="slide-btn-3"],
+#slide-btn-4:checked~.labels label[for="slide-btn-4"],
+#slide-btn-5:checked~.labels label[for="slide-btn-5"] {
+	background-color: white;
+}
+
+h3.slideshow {
+	font-family: 'Recoleta', serif;
+	font-size: 30px;
+	font-weight: 600;
+	text-align: center;
+}
+
+h4.slideshow {
+	font-family: 'Sofia Sans', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	text-align: center;
+}
+
+/* Product categories */
+.product-table {
+	display: table;
+	margin: 0 auto;
+	width: auto;
+	padding: 10px 10px;
+	background-color: #EBDED4;
+}
+
+.row {
+	width: 100%;
+	text-align: center;
+}
+
+.column {
+	flex: 25%;
+	padding: 10px;
+	width: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.column img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.contain {
+	position: relative;
+	width: 100%;
+	max-width: 400px;
+}
+
+.contain img {
+	width: 100%;
+	height: auto;
+}
+
+.contain .btn {
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	color: #EBDED4;
+	background-color: #947C70;
+	font-size: 20px;
+	padding: 7px 25px;
+	border: none;
+	border-radius: 60px;
+	cursor: pointer;
+	text-align: center;
+	font-family: 'Recoleta', serif;
+	font-weight: 500;
+}
+
+.contain .btn:hover {
+	color: #947C70;
+	background-color: #EBDED4;
+}
+
+/* Body */
+th {
+	padding-top: 45px;
+	padding-bottom: 45px;
+	padding-left: 80px;
+	padding-right: 80px;
+	background-color: #947C70;
+}
+
+tr.macarons td {
+	padding-top: 45px;
+	padding-bottom: 45px;
+	padding-left: 80px;
+	padding-right: 80px;
+	background-color: #EBDED4;
+}
+
+tr.delivery td {
+	padding-top: 45px;
+	padding-bottom: 45px;
+	padding-left: 80px;
+	padding-right: 80px;
+	background-color: #C9A07D;
+}
+
+/* Wedding cakes */
+h3.wedding {
+	font-family: 'Recoleta', serif;
+	font-weight: 600;
+	color: #EBDED4;
+	font-size: 40px;
+}
+
+h4.wedding {
+	font-family: 'Sofia Sans', sans-serif;
+	font-weight: 400;
+	color: #EBDED4;
+	font-size: 22px;
+}
+
+/* Corporate macarons */
+h3.macarons {
+	font-family: 'Recoleta', serif;
+	font-weight: 600;
+	color: #8A7266;
+	font-size: 40px;
+}
+
+h4.macarons {
+	font-family: 'Sofia Sans', sans-serif;
+	font-weight: 400;
+	color: #8A7266;
+	font-size: 22px;
+}
+
+/* Next-day delivery */
+h3.delivery {
+	font-family: 'Recoleta', serif;
+	font-weight: 600;
+	color: #584535;
+	font-size: 40px;
+}
+
+h4.delivery {
+	font-family: 'Sofia Sans', sans-serif;
+	font-weight: 400;
+	color: #584535;
+	font-size: 22px;
+}
+
+/* About us */
+h3.about {
+	font-family: 'Sofia Sans', sans-serif;
+	font-size: 25px;
+	font-weight: 400;
+	text-align: center;
+	color: #8A7266
+}
+
+tr.about td {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	padding-left: 300px;
+	padding-right: 300px;
+	background-color: #EBDED4;
+}
+
+.center-div {
+	display: flex;
+	justify-content: center;
+}
+
+/* Social media */
+h3.social {
+	font-family: 'Recoleta', serif;
+	font-size: 30px;
+	font-weight: 600;
+	text-align: center;
+	color: #EBDED4
+}
+
+h4.social {
+	font-family: 'Sofia Sans', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	text-align: center;
+	color: #EBDED4
+}
+
+tr.social td {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	padding-left: 300px;
+	padding-right: 300px;
+	background-color: #947C70;
+}
+
+.social-btn {
+	background-color: #947C70;
+	padding: 8px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+
+.social-btn:hover img {
+	filter: brightness(100%) saturate(100%) invert(0%) hue-rotate(1deg) brightness(93%) contrast(91%);
+}
+
+/* Sub footer */
+.sub-footer {
+	background-color: #C9A07D;
+	text-align: center;
+}
+
+.sub-footer p {
+	font-size: 14px;
+	color: #EBDED4;
+	line-height: 60px;
+}
+
+.sub-footer a {
+	color: #947C70;
+	text-decoration: none;
+}
+
+/* Buttons */
+.wedding-button {
+	background-color: #EBDED4;
+	color: #947C70;
+	font-size: 20px;
+	padding: 7px 23px;
+	border: 2px solid #EBDED4;
+	border-radius: 60px;
+	cursor: pointer;
+	text-align: center;
+	font-family: 'Recoleta', serif;
+	font-weight: 500;
+}
+
+.wedding-button:hover {
+	background-color: #947C70;
+	color: #EBDED4;
+	border: 2px solid #EBDED4;
+}
+
+.macarons-button {
+	background-color: #947C70;
+	color: #EBDED4;
+	font-size: 20px;
+	padding: 7px 23px;
+	border: 2px solid #947C70;
+	border-radius: 60px;
+	cursor: pointer;
+	text-align: center;
+	font-family: 'Recoleta', serif;
+	font-weight: 500;
+}
+
+.macarons-button:hover {
+	background-color: #EBDED4;
+	color: #947C70;
+	border: 2px solid #947C70;
+}
+
+.delivery-button {
+	background-color: #584535;
+	color: #C9A07D;
+	font-size: 20px;
+	padding: 7px 23px;
+	border: 2px solid #584535;
+	border-radius: 60px;
+	cursor: pointer;
+	text-align: center;
+	font-family: 'Recoleta', serif;
+	font-weight: 500;
+}
+
+.delivery-button:hover {
+	background-color: #C9A07D;
+	color: #584535;
+	border: 2px solid #584535;
+}
+
+.about-button {
+	background-color: #947C70;
+	color: #EBDED4;
+	font-size: 20px;
+	padding: 7px 23px;
+	border: 2px solid #947C70;
+	border-radius: 60px;
+	cursor: pointer;
+	text-align: center;
+	font-family: 'Recoleta', serif;
+	font-weight: 500;
+}
+
+.about-button:hover {
+	background-color: #EBDED4;
+	color: #947C70;
+	border: 2px solid #947C70;
+}
+
+.contact-button {
+	background-color: #947C70;
+	color: #EBDED4;
+	font-size: 15px;
+	padding: 2px 12px;
+	border: 2px solid #947C70;
+	border-radius: 60px;
+	cursor: pointer;
+	text-align: center;
+	font-family: 'Sofia Sans', sans-serif;
+	font-weight: 500;
+	opacity: 70%;
+	white-space: nowrap;
+}
+
+.contact-button:hover {
+	background-color: #EBDED4;
+	color: #947C70;
+	border: 2px solid #947C70;
+}
+
+.strawberry-button {
+	background-color: #b50018;
+	color: #FFFFFF;
+	font-size: 20px;
+	padding: 7px 23px;
+	border: 2px solid #b50018;
+	border-radius: 60px;
+	cursor: pointer;
+	text-align: center;
+	font-family: 'Recoleta', serif;
+	font-weight: 500;
+}
+
+.strawberry-button:hover {
+	background-color: #FFFFFF;
+	color: #b50018;
+	border: 2px solid #b50018;
+}
+
+.chocolate-button {
+	background-color: #6b402f;
+	color: #FFFFFF;
+	font-size: 20px;
+	padding: 7px 23px;
+	border: 2px solid #6b402f;
+	border-radius: 60px;
+	cursor: pointer;
+	text-align: center;
+	font-family: 'Recoleta', serif;
+	font-weight: 500;
+}
+
+.chocolate-button:hover {
+	background-color: #FFFFFF;
+	color: #6b402f;
+	border: 2px solid #6b402f;
+}
+
+.carrot-button {
+	background-color: #fa8c0e;
+	color: #FFFFFF;
+	font-size: 20px;
+	padding: 7px 23px;
+	border: 2px solid #fa8c0e;
+	border-radius: 60px;
+	cursor: pointer;
+	text-align: center;
+	font-family: 'Recoleta', serif;
+	font-weight: 500;
+}
+
+.carrot-button:hover {
+	background-color: #FFFFFF;
+	color: #fa8c0e;
+	border: 2px solid #fa8c0e;
+}
+
+.cupcake-button {
+	background-color: #c23d51;
+	color: #FFFFFF;
+	font-size: 20px;
+	padding: 7px 23px;
+	border: 2px solid #c23d51;
+	border-radius: 60px;
+	cursor: pointer;
+	text-align: center;
+	font-family: 'Recoleta', serif;
+	font-weight: 500;
+}
+
+.cupcake-button:hover {
+	background-color: #FFFFFF;
+	color: #c23d51;
+	border: 2px solid #c23d51;
+}
+
+.cheesecake-button {
+	background-color: #f1ba38;
+	color: #FFFFFF;
+	font-size: 20px;
+	padding: 7px 23px;
+	border: 2px solid #f1ba38;
+	border-radius: 60px;
+	cursor: pointer;
+	text-align: center;
+	font-family: 'Recoleta', serif;
+	font-weight: 500;
+}
+
+.cheesecake-button:hover {
+	background-color: #FFFFFF;
+	color: #f1ba38;
+	border: 2px solid #f1ba38;
+}
+
+/* Responsive Style */
+@media (max-width: 991px) {
+
+	.banner {
+		border-top: none;
+		margin-top: 0px;
+	}
+
+	.navbar .navbar-brand {
+		width: auto;
+	}
+
+	.navbar:after {
+		display: none;
+	}
+
+	#navbarResponsive {
+		z-index: 99999;
+		position: absolute;
+		top: 96px;
+		width: 100%;
+		text-align: center;
+		background-color: rgba(250, 250, 250, 0.95);
+		box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+	}
+
+	.navbar-dark .navbar-nav .nav-item {
+		border-bottom: 1px solid #eee;
+	}
+
+	.navbar-dark .navbar-nav .nav-item:last-child {
+		border-bottom: none;
+	}
+
+	.navbar-dark .navbar-nav .nav-link {
+		padding: 15px 0px;
+	}
+
+}
