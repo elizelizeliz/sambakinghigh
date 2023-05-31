@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@1;100;200;300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link href="assets/fonts/Recoleta/stylesheet.css" rel="stylesheet" type="text/css" />
+  <link href="assets/images/FAVICON.png" rel="icon" type="image/x-icon" >
+
+  <title>Sam Baking High</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="assets/css/tooplate-main.css">
+
+  <!--
+Tooplate 2114 Pixie
+https://www.tooplate.com/view/2114-pixie
+-->
+</head>
+
+<body>
+
+  <!-- Navigation bar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="assets/images/LOGO.png" alt="Logo" style="width: 130px;"></a>
+      <div class="collapse navbar-collapse" id="navbarResponsive" style="position: fixed">
+        <ul class="navbar-nav ml-auto">
+          <li class="icons-container" style="margin-left: 40px">
+            <img src="assets/images/PHONE.png" alt="Phone icon" style="width:25px" hspace="6" />
+            <a href="index.html"><button class="contact-button">Contact us</button></a>
+          </li>
+          <div class="navbar-links">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown">
+                <button class="dropbtn">Products</button>
+                <div class="dropdown-content">
+                  <a href="index.html">All</a>
+                  <a href="index.html">Cakes</a>
+                  <a href="index.html">Pastries</a>
+                  <a href="index.html">Desserts</a>
+                  <a href="index.html">Specials</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Delivery</a>
+            </li>
+          </div>
+          <li class="icons-container" style="margin-right: 60px">
+            <a href="index.html"><button class="nav-btn"><img src="assets/images/USER.png" alt="User icon"
+                  style="width:25px;"></button></a>
+            <a href="index.html"><button class="nav-btn"><img src="assets/images/SEARCH.png" alt="Magnifying glass icon"
+                  style="width:20px"></button></a>
+            <a href="index.html"><button class="nav-btn"><img src="assets/images/BASKET.png" alt="Shopping basket icon"
+                  style="width:25px"></button></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page content -->
+  <div class="main-content">
+    <!-- Post header -->
+    <div id="menu-outer">
+      <div class="table">
+        <ul id="horizontal-list">
+          <li><a href="#"><img src="assets/images/RECEIPT.png" alt="Receipt icon" style="width: 25px" /></a> Minimum
+            order
+            $33 </li>
+          <li><a href="#"><img src="assets/images/TRUCK.png" alt="Delivery truck icon" style="width: 25px" /></a> Free
+            delivery for
+            orders over $60 </li>
+          <li><a href="#"><img src="assets/images/OVEN.png" alt="Oven icon" style="width: 25px" /></a> Made fresh daily
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Slideshow -->
+    <div class="carousel">
+      <input type="radio" name="carousel" id="slide-btn-1" class="slide-btn" onclick="setInt();" checked />
+      <input type="radio" name="carousel" id="slide-btn-2" class="slide-btn" onclick="setInt();" />
+      <input type="radio" name="carousel" id="slide-btn-3" class="slide-btn" onclick="setInt();" />
+      <input type="radio" name="carousel" id="slide-btn-4" class="slide-btn" onclick="setInt();" />
+      <input type="radio" name="carousel" id="slide-btn-5" class="slide-btn" onclick="setInt();" />
+      <div class="slide one parallax-effect"
+        style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+        <h3 class="slideshow" style="padding: 10px; background-color: #b50018">Strawberry Bliss</h3>
+        <h4 class="slideshow" style="padding: 10px; background-color: #b50018">Indulge in the luscious combination of
+          strawberries and <br> chocolate with our heavenly strawberry chocolate cake.</h4>
+        <a href="index.html"><button class="strawberry-button">Explore now</button></a>
+      </div>
+      <div class="slide two parallax-effect"
+        style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+        <h3 class="slideshow" style="padding: 10px; background-color: #6b402f">Chocolate Cream</h3>
+        <h4 class="slideshow" style="padding: 10px; background-color: #6b402f">Satisfy your sweet cravings with our
+          irresistible chocolate and <br> cream cake, a divine blend of rich cocoa and velvety cream that <br> will
+          leave you craving for more.</h4>
+        <a href="index.html"><button class="chocolate-button">Explore now</button></a>
+      </div>
+      <div class="slide three parallax-effect"
+        style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+        <h3 class="slideshow" style="padding: 10px; background-color: #fa8c0e">Carrot Spice</h3>
+        <h4 class="slideshow" style="padding: 10px; background-color: #fa8c0e">Delight in the perfect balance of moist
+          carrot cake infused with <br> warm spices and topped with a luscious cream cheese frosting, <br> creating a
+          slice of pure carrot cake heaven.</h4>
+        <a href="index.html"><button class="carrot-button">Explore now</button></a>
+      </div>
+      <div class="slide four parallax-effect"
+        style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+        <h3 class="slideshow" style="padding: 10px; background-color: #c23d51">Velvet Bites</h3>
+        <h4 class="slideshow" style="padding: 10px; background-color: #c23d51">Experience the epitome of indulgence with
+          our irresistible red velvet <br> cupcakes, where delicate cocoa flavors intertwine with a smooth cream <br>
+          cheesefrosting to create a delectable treat that will captivate your taste buds.</h4>
+        <a href="index.html"><button class="cupcake-button">Explore now</button></a>
+      </div>
+      <div class="slide five parallax-effect"
+        style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+        <h3 class="slideshow" style="padding: 10px; background-color: #f1ba38">Lemony Cream</h3>
+        <h4 class="slideshow" style="padding: 10px; background-color: #f1ba38">Tantalize your taste buds with our
+          lemon-infused cheesecake, <br> where the creamy richness of cheesecake meets the vibrant tanginess <br> of
+          fresh lemons,
+          creating a citrusy delight that will leave you refreshed. </h4>
+        <a href="index.html"><button class="cheesecake-button">Explore now</button></a>
+        <div class="caption"></div>
+      </div>
+      <div class="labels">
+        <label for="slide-btn-1"></label>
+        <label for="slide-btn-2"></label>
+        <label for="slide-btn-3"></label>
+        <label for="slide-btn-4"></label>
+        <label for="slide-btn-5"></label>
+      </div>
+    </div>
+
+    <!-- Product categories -->
+    <div class="product-table" style="display: flex; justify-content: center; align-items: center;">
+      <div class="row">
+        <div class="column" style="text-align: right">
+          <div class="contain">
+            <a href="index.html"><img src="assets/images/CAKES4.jpg" alt="Strawberry cheesecake" style="width:90%"></a>
+            <button class="btn">Cakes</button>
+          </div>
+        </div>
+        <div class="column">
+          <div class="contain">
+            <a href="index.html"><img src="assets/images/PASTRY3.jpg" alt="Chocolate chip cookies"
+                style="width:90%"></a>
+            <button class="btn">Pastries</button>
+          </div>
+        </div>
+        <div class="column">
+          <div class="contain">
+            <a href="index.html"><img src="assets/images/DESSERT3.jpg" alt="Strawberry nutella crepes"
+                style="width:90%"></a>
+            <button class="btn">Desserts</button>
+          </div>
+        </div>
+        <div class="column">
+          <div class="contain">
+            <a href="index.html"><img src="assets/images/SPECIAL4.jpg" alt="Heart-shaped cake with macarons"
+                style="width:90%"></a>
+            <button class="btn">Specials</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Wedding cakes -->
+    <table>
+      <tr>
+        <th class="wedding" style="width:50%">
+          <h3 class="wedding">Wedding cakes</h3>
+          <h4 class="wedding">Our bespoke wedding cake service crafts personalised, stunning cakes that reflect your
+            style and taste, using the finest ingredients and attention to detail. From consultation to delivery, we
+            create a seamless experience, culminating in a one-of-a-kind masterpiece for your special day.</h4>
+          <a href="index.html"><button class="wedding-button">Get in touch</button></a>
+        </th>
+        <th>
+          <img src="assets/images/WEDDING CAKE.jpg" alt="Floral wedding cake being cut" style="width:100%">
+        </th>
+      </tr>
+    </table>
+    
+    <!-- Body -->
+    <!-- Corporate macarons -->
+    <table>
+      <tr class="macarons">
+        <td style="width:50%">
+          <h3 class="macarons">Corporate macarons</h3>
+          <h4 class="macarons">Impress clients and team members while celebrating your business milestones with our
+            corporate branding macarons. Customised with your company's logo, these delicious treats serve as unique and
+            personalised favours, leaving a lasting impression on guests and showcasing your brand in a delightful way.
+          </h4>
+          <a href="index.html"><button class="macarons-button">Get in touch</button></a>
+        </td>
+        <td>
+          <img src="assets/images/MACARONS.jpg" alt="Macarons in a box" style="width:100%">
+        </td>
+      </tr>
+    </table>
+
+    <!-- Next-day delivery -->
+    <table>
+      <tr class="delivery">
+        <td style="width:50%">
+          <h3 class="delivery">Next-day delivery</h3>
+          <h4 class="delivery">We offer Next Day Delivery for orders placed before 11pm. <br> Order today, enjoy the
+            deliciousness tomorrow!</h4>
+          <a href="index.html"><button class="delivery-button">Delivery info</button></a>
+        </td>
+        <td>
+          <img src="assets/images/BOX DESSERT.jpg" alt="Mini parfaits on a serving platter" style="width:100%">
+        </td>
+      </tr>
+    </table>
+
+    <!-- About us -->
+    <table>
+      <tr class="about">
+        <td style="width:50%">
+          <h3 class="about">Cakes at Sam Baking High are meticulously crafted with fresh ingredients, resulting in
+            unique and diverse products that showcase our creativity and passion. From adorable designs to delightful
+            flavors, our cakes are a savory delight that will leave a lasting impression and demonstrate why we are
+            known for making the best cakes in Melbourne.</h3>
+          <div class="center-div">
+            <a href="index.html"><button class="about-button">About us</button></a>
+          </div>
+        </td>
+      </tr>
+    </table>
+
+    <!-- Social media -->
+    <table>
+      <tr class="social">
+        <td style="width:50%">
+          <h3 class="social">Follow us</h3>
+          <div class="center-div">
+            <a href="index.html"><button class="social-btn"><img src="assets/images/FACEBOOK.png" alt="Facebook logo icon" style="width: 70px;"
+              ></a></button>
+            <a href="index.html"><button class="social-btn"><img src="assets/images/INSTAGRAM.png" alt="Instagram logo icon" style="width: 70px;"
+                ></a></button>
+          </div>
+          <h4 class="social" style="padding: 10px;">Post your cakes from us on social media and tag #SamBakingHigh <br>
+            for a chance to win a discount on your next order with us!</h4>
+        </td>
+      </tr>
+    </table>
+
+    <!-- Footer -->
+    <table style="width: 100%; font-family: 'Sofia Sans', sans-serif; font-size: 17px;">
+      <tr>
+        <th style="background-color: #FFF4EB; color: #947C70; width: 33.33%">
+          <a class="footer" href="index.html">About</a> <br>
+          <a class="footer" href="index.html">Products</a> <br>
+          <a class="footer" href="index.html">Delivery</a> <br>
+          <a class="footer" href="index.html">Contact</a> <br>
+          <a class="footer" href="index.html">FAQ</a> <br>
+          <a class="footer" href="index.html">Privacy Policy</a>
+        </th>
+        <th style="text-align: center; background-color: #FFF4EB; color: #947C70; width: 33.33%">
+          Weekdays: 10.00am - 5.00pm <br> Saturday: 10.00am - 5.00pm <br> Sunday: 10.00am - 4.00pm <br> 165 Clayton Rd,
+          Oakleigh East VIC 3166
+        </th>
+        <th style="text-align: right; background-color: #FFF4EB; width: 33.33%">
+          <a href="index.html"><img src="assets/images/LOGO.png" alt="Logo" style="width:150px"></a>
+        </th>
+      </tr>
+    </table>
+
+    <!-- Sub footer -->
+    <div class="sub-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="copyright-text">
+              <p>Copyright &copy; 2019 Company Name
+
+                - Design: <a rel="nofollow" href="https://www.facebook.com/tooplate">Tooplate</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- Additional Scripts -->
+    <script type="text/javascript" src="slideshow.js"></script>
+
+    <script language="text/Javascript">
+      cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
+      function clearField(t) {                   //declaring the array outside of the
+        if (!cleared[t.id]) {                      // function makes it static and global
+          cleared[t.id] = 1;  // you could use true and false, but that's more typing
+          t.value = '';         // with more chance of typos
+          t.style.color = '#fff';
+        }
+      }
+    </script>
+
+  </div>
+
+</body>
+
+</html>
